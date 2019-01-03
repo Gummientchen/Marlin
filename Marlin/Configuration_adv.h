@@ -1740,8 +1740,8 @@
   #define USER_DESC_3 "Home X&Y"
   #define USER_GCODE_3 "G28 X Y"
 
-//#define USER_DESC_4 "Heat Bed/Home/Level"
-//#define USER_GCODE_4 "M140 S" STRINGIFY(PREHEAT_2_TEMP_BED) "\nG28\nG29"
+  #define USER_DESC_4 "Offset Z after Probing"
+  #define USER_GCODE_4 "G0 Z-19.3\nG92 Z0"
 
 //#define USER_DESC_5 "Home & Info"
 //#define USER_GCODE_5 "G28\nM503"
